@@ -198,3 +198,13 @@ h6 {
   	float: none;
   }
 }
+.logo {
+    font-size: 2rem;
+    margin-right: 1rem;
+  }
+  article {
+    background: #fff8e1;
+    padding: 2rem;
+    border-right: 2px solid #ccc;
+  }
+  
