@@ -1,0 +1,111 @@
+nav {
+display: flex;                 
+justify-content: space-between; 
+align-items: center;          
+margin: 35.02px 171.59px;
+}
+
+nav img {
+width: 167.02px;
+height: 29.46px;
+}
+
+.nav_links {
+display: flex;                
+list-style: none;
+gap: 4rem;                   
+margin: 0;
+padding: 0;
+font-size: 34px 15px;
+color: white;
+
+
+}
+.nav_links a {
+    color: white;
+    font-size: 12px; 
+    text-decoration: none;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: bold;
+  }
+body{
+    background-image: url(CSS\ Advanced/Object.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+h1 {
+    font-size: 120px;
+    color: white;
+    font-family: 'Source Sans Pro';
+    font-weight: bold;
+    position: absolute;
+    top: 220px;
+    left: 377px;
+    text-align: center;
+    padding: 0%;
+    margin: 0%;
+    
+}
+@font-face {
+    font-family: 'Source Sans Pro';
+    src: url('source-sans-pro/SourceSansPro-Bold.otf') format('opentype');
+    font-weight: bold;
+    
+}
+@font-face {
+    font-family: 'Source Sans Pro Semi';
+    src: url('source-sans-pro/SourceSansPro-Semibold.otf') format('opentype');
+    
+    
+}
+@font-face {
+    font-family: 'Source Sans Pro Light';
+    src: url('source-sans-pro/SourceSansPro-Light.otf') format('opentype');
+    
+    
+}
+.span-group span {
+    
+    font-family: 'Source Sans Pro';
+    font-weight: bold;
+    color: white;
+    font-size: 16px;
+}
+.span-group {
+position: absolute;
+    top: 361px;
+    left: 593px;
+    gap: 4rem;
+    justify-content: space-between;
+    display: flex;
+}
+button{
+    position: absolute;
+    top: 419px;
+    left: 639px;
+    font-size: 14px;
+    border-radius: 60px;
+    border: 44px;
+    border-width: 162px;
+    padding: 16px 20px;
+    font-family: 'Source Sans Pro Semi';
+    color: white;
+    background-color: #C271FF;
+}
+.first-h2 {
+    font-size: 32px;
+    position: absolute;
+    top: 631px;
+    left: 604px;
+    text-align: center;
+    padding: 0%;
+    margin: 0%;
+    font-family: 'Source Sans Pro Light';
+    color: white;
+    font-weight: lighter;
+}
+.first-h2 .different{
+    font-family: 'Source Sans Pro';
+    color: #C271FF;
+    font-weight: bold;
+}
