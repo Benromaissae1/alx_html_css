@@ -31,7 +31,8 @@ color: white;
 body{
     background-image: url(CSS\ Advanced/Object.png);
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: 1440px 1093px;
+    
 }
 h1 {
     font-size: 120px;
@@ -108,4 +109,195 @@ button{
     font-family: 'Source Sans Pro';
     color: #C271FF;
     font-weight: bold;
+}
+.people .first-person {
+    position: absolute;
+    top: 758px;
+    left: 217px;
+    padding: 0%;
+    margin: 0%;
+    color: white;
+    text-align: center;
+}
+.people .second-person {
+    position: absolute;
+    top: 758px;
+    left: 508px;
+    padding: 0%;
+    margin: 0%;
+    color: white;
+    text-align: center;
+}
+.people .third-person {
+    position: absolute;
+    top: 758px;
+    left: 787px;
+    padding: 0%;
+    margin: 0%;
+    color: white;
+    text-align: center;
+}
+.people .fourth-person {
+    position: absolute;
+    top: 758px;
+    left: 1076px;
+    padding: 0%;
+    margin: 0%;
+    color: white;
+    text-align: center;
+}
+.people h3{
+    font-size: 18px;
+    font-family: 'Source Sans Pro';
+
+}
+.people p{
+    font-size: 16px;
+    font-family: 'Source Sans Pro Light' ;
+    font-style: italic;
+    
+}
+.fifth-person{
+    position: absolute;
+    left: 259px;
+    padding: 0%;
+    margin:0%;
+}
+
+.block-quote blockquote{
+    font-size: 22px;
+    font-family: 'Source Sans Pro Light';
+    margin-top: 0%;
+}
+.block-quote h3 {
+    font-family: 'Source Sans Pro';
+    font-weight: bold;
+    margin-left: 2rem;
+    margin-bottom: 0%;
+    font-size: 22px;
+    margin-top: 0%;
+}
+
+.block-quote p{
+    font-family: 'Source Sans Pro Light';
+    font-style: italic;
+    margin-left: 2rem;
+    font-size: 22px;
+    margin-top: 0;
+}
+.block-quote{
+    position: absolute;
+    left: 472px;
+}
+.second-part {
+    background-color: #C271FF;
+    padding: 200px 720px;
+    display: flex;
+    position: absolute;
+    top: 1093px;
+    left: 0;
+    align-items: center;
+    color: white;
+}
+.rating{
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+    text-align: left;
+
+}
+.rating h2{
+    font-size: 32px;
+    position: absolute;
+    top: 1582px;
+    left: 583px;
+    text-align: center;
+    font-family: 'Source Sans Pro Light';
+    font-weight: lighter;
+
+}
+.rating .different{
+    font-family: 'Source Sans Pro';
+    color: #C271FF;
+    font-weight: bold;
+}
+.rating .first-rating{
+    position: absolute;
+    top: 1697px;
+    left: 158px;
+    text-align: left;
+}
+.rating .second-rating{
+    position: absolute;
+    top: 1697px;
+    left: 444px;
+
+    text-align: left;
+}
+.rating .third-rating{
+    position: absolute;
+    top: 1697px;
+    left: 729px;
+    text-align: left;
+}
+.rating .fourth-rating{
+    position: absolute;
+    top: 1697px;
+    left: 1014px;
+    text-align: left;
+    
+}
+.rating .f-img{
+    position: absolute;
+    top: 45px;
+    left: 85px;
+}
+.rating .s-img{
+    position: absolute;
+    top: 45px;
+    left: 90px;
+    padding: 0%;
+    margin: 0%;
+    text-align: center;
+}
+.rating .t-img{
+    position: absolute;
+    top: 45px;
+    left: 90px;
+    padding: 0%;
+    margin: 0%;
+    text-align: center;
+}
+.rating .fo-img{
+    position: absolute;
+    top: 45px;
+    left: 90px;
+    padding: 0%;
+    margin: 0%;
+    text-align: center;
+}
+.rating h3{
+    font-family: 'Source Sans Pro';
+    font-size: 16px;
+}
+.rating p{
+    color: rgba(7, 22, 41, 0.5016);
+    font-size: 14px;
+    font-family:'Source Sans Pro Light' ;
+}
+.rating .rat{
+    display: flex;
+}
+.rating h4{
+    color: #C271FF;
+    font-family: 'Source Sans Pro';
+    font-size: 14px;
+}
+.rating .m8{
+    color: #C271FF;
+    font-size: 14;
+    font-family: 'Source Sans Pro Light';
+    position: absolute;
+    top: 285px;
+    left: 223px;
 }
